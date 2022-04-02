@@ -202,22 +202,41 @@ html {
 
 footer 
 {
-  height:12rem; 
+  height:4rem; 
 	font-weight: 500;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
   width: 100%; 
   text-align: center;
-  padding-top:2rem;
+  padding-top:1rem;
   list-style-type: none;
 	background-image: linear-gradient(to right bottom, rgba(30, 11, 54, 0.65), rgba(202, 55, 130, 0.7)), url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
 
 } 
+.row {
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-bottom: 1rem;
+  color: white;
+  
+}
+
+.block {
+  width: 10rem;
+ 
+}
+.btn-footer{
+  color:white;
+}
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 html {
@@ -264,7 +283,7 @@ body {
 .card {
   flex: initial;
   position: relative;
-  height: 30rem;
+  height: 40rem;
   width: 35rem;
   -moz-perspective: 200rem;
   perspective: 200rem;
@@ -272,7 +291,7 @@ body {
   background-color: #000000;
 }
 .card__side {
-  height: 29.8rem;
+  height: 39.8rem;
   transition: all 0.8s ease;
   background-color: #000000;
   
@@ -349,13 +368,13 @@ body {
 .card__heading {
   text-align: center;
   color: #fff;
-  
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 75%;
 }
+
 .card__heading-span {
   font-family: "VT323", monospace;
   font-size: 4.2rem;
@@ -367,12 +386,12 @@ body {
 }
 .card__details {
   font-family: "Inconsolata", monospace;
-  padding: 2rem 2rem;
+  padding: 2rem 1rem;
   background-color: #000000;
 }
 .card__details ul {
   list-style: none;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   background-color: #000000;
 }
@@ -696,16 +715,16 @@ body, button, input {
 }
 .buble{
   display: block;
-  width:530px;
+  width:550px;
   height:300px;
   position:absolut;
   margin-top: 5px;
-margin-left:51%;
+margin-left:52%;
 }
 .topnote{
   position: absolute;
   top: 27%;
-  left: 66%;
+  left: 68%;
   transform: translate(-50%, -50%);
   font-size:2rem;
 }
@@ -715,8 +734,13 @@ margin-left:51%;
   left:42%;
   
 }
+img.avatar:hover{
+  transform:scale(1.4);
+  transition:250ms;
+}
 .aboutme{
   position:absolute;
+  text-align: center;
   top:60%;
   left: 28.5%;
   margin-top:10px;
