@@ -1,37 +1,13 @@
-const OLDWORD = document.querySelector("#current");
-const NEWWOLD = document.querySelector("#next");
+var today = new Date();
+var date = today.getFullYear()
 
-const WORDS = [
-	"Hello",
-	"I am Petros Tsimvris",
-	"I am a Alumni",
-	"Frontend Developer"
-];
-let currentWord = 0;
+let birthYear= 1991
+let firstName= "Petros"
+let lastName="Tsimvris"
+let age = date-birthYear
 
-OLDWORD.textContent = WORDS[currentWord];
-NEWWOLD.textContent = WORDS[currentWord + 1];
-
-const setWord = (element) => {
-	if (!element.classList.contains("show")) {
-		element.textContent = WORDS[(currentWord + 2) % WORDS.length];
-	}
-};
-
-const animateWord = () => {
-	OLDWORD.classList.toggle("show");
-	NEWWOLD.classList.toggle("show");
-};
-
-const startMorph = () => {
-	animateWord();
-	setTimeout(() => {
-		setWord(OLDWORD);
-		setWord(NEWWOLD);
-	}, 750);
-};
-
-setInterval(() => {
-	startMorph();
-	currentWord++;
-}, 1000);
+console.log('Your name is ' + firstName + ' and your lastname is ' + lastName )
+console.log('Your age is ' + age)
+newage=date+20
+yourNewAge = age+20
+console.log('in 20 years it will be ' + newage + ' and you will be ' + yourNewAge)
