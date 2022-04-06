@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var today = new Date();
 var date = today.getFullYear()
 
@@ -11,3 +12,6 @@ console.log('Your age is ' + age)
 newage=date+20
 yourNewAge = age+20
 console.log('in 20 years it will be ' + newage + ' and you will be ' + yourNewAge)
+=======
+console.log("I'm Back")
+>>>>>>> Dev
