@@ -467,7 +467,7 @@ body {
 .secondheader{
   background-color: #000000 !important;
   text-align: center;
-  padding-top:3rem;
+  padding:3rem 2rem 0 2rem;
 
 }
 p{
@@ -713,35 +713,22 @@ body, button, input {
     padding: 0;
   }
 }
-.buble{
-  display: block;
-  width:550px;
-  height:300px;
-  position:absolut;
-  margin-top: 5px;
-margin-left:52%;
+#aboutme{
+  padding:0 2rem 0 2rem;
 }
-.topnote{
-  position: absolute;
-  top: 27%;
-  left: 68%;
-  transform: translate(-50%, -50%);
-  font-size:2rem;
+.imgoben{
+  display: grid;
+  justify-content: center;
 }
-.avatar{
-  position:absolute;
-  top:30%;
-  left:42%;
-  
+#cardcont{
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+
 }
-img.avatar:hover{
-  transform:scale(1.4);
-  transition:250ms;
-}
-.aboutme{
-  position:absolute;
-  text-align: center;
-  top:60%;
-  left: 28.5%;
-  margin-top:10px;
+@media screen and (max-width: 700px){
+  .imgoben{
+    width: 360px;
+    height:150px;
+  }
 }
