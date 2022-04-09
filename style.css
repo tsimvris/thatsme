@@ -1,13 +1,9 @@
 body {
   background-color: black !important;
-
 }
-
-
 * {
   color: ghostwhite;
 }
-
 .under {
   width: 100%;
   height: 725px;
@@ -33,7 +29,9 @@ body {
 #menu ul {
   width: 100%;
 }
-
+.main-ds{
+  background-color: #000000 !important;
+}
 #menu li {
   float: right;
   display: inline;
@@ -796,4 +794,12 @@ img{
 }
 body{
   background-color: #000000 !important;
+}
+.main-im{
+text-align: center;
+min-height: 100%;
+
+}
+.imp{
+  padding: 2em 1em;
 }
