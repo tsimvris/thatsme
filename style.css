@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  height: 100vh;
+  background-color: black !important;
+
 }
 
 
@@ -175,11 +175,6 @@ body {
   display: grid;
 
 }
-
-#FF {
-  list-style-type: upper-roman
-}
-
 #petros {
 
   background: #D428C9;
@@ -246,21 +241,7 @@ body {
   font-size: 40px;
   transition: 250ms;
 }
-
-#pet {
-  text-align: center;
-  margin-top: 80px;
-  border-style: groove;
-  border-radius: 35px;
-  border-color: #3f6cd6;
-  border-width: 1em;
-  padding: 35px;
-  width: max-content;
-
-}
-
 * {
-
   box-sizing: border-box;
 }
 /*CARDS*/
@@ -512,19 +493,15 @@ only screen and (hover: none) {
 .allcards {
   display: flexbox;
   background-color: #000000 !important;
-<<<<<<< HEAD
 	display: inline-block;
-  justify-content:flex-start;
+  justify-content:center;
+  
 }
 .secondheader{
   background-color: #000000 !important;
   text-align: center;
-  padding:3rem 2rem 0 2rem;
-=======
-  padding-left: 8rem;
-
->>>>>>> Dev
-
+  padding:20px 25px;
+  max-width: 100%;
 }
 
 .artboard {
@@ -533,12 +510,6 @@ only screen and (hover: none) {
   justify-content: flex-start;
 }
 
-.secondheader {
-  background-color: #000000 !important;
-  text-align: center;
-  padding-top: 3rem;
-
-}
 /*CARDS END*/
 /* Contact form */
 p {
@@ -788,73 +759,41 @@ input {
     padding: 0;
   }
 }
-<<<<<<< HEAD
+
 #aboutme{
-  padding:0 2rem 0 2rem;
+  padding-top: 1em;
 }
 .imgoben{
   display: grid;
   justify-content: center;
+  max-width: 100%;
 }
 #cardcont{
   display: flex;
+  padding:auto 1em;
   justify-content: center;
+  justify-items: center;
   background-color: #000000;
 
 }
-@media screen and (max-width: 700px){
-  .imgoben{
-    width: 360px;
-    height:150px;
-  }
-=======
 /* Contact Form End */
 /*Avatar + Buble + Text in buble */
-.buble {
-  display: block;
-  width: 550px;
-  height: 300px;
-  position: absolut;
-  margin-top: 5px;
-  margin-left: 52%;
-}
-
-.topnote {
-  position: absolute;
-  top: 27%;
-  left: 68%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-}
-
-.avatar {
-  position: absolute;
-  top: 30%;
-  left: 42%;
-
-}
-
-img.avatar:hover {
-  transform: scale(1.4);
-  transition: 250ms;
-}
-
-.aboutme {
-  position: absolute;
-  text-align: center;
-  top: 60%;
-  left: 28.5%;
-  margin-top: 10px;
->>>>>>> Dev
-}
 
 /** Footer **/
-footer {
-  height: 3rem;
-  font-weight: 500;
-  font-size: 1.4rem;
-  width: 100%;
-  text-align: center;
-  padding-top: 0.6rem;
+footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  margin: 0 auto;
   background-image: linear-gradient(to right bottom, rgba(30, 11, 54, 0.65), rgba(202, 55, 130, 0.7)), url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
+}
+
+img{
+  display:block;
+  max-width: 100%;
+  justify-content: center;
+}
+body{
+  background-color: #000000 !important;
 }
