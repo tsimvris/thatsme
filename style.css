@@ -1,8 +1,12 @@
 body {
   background-color: black !important;
 }
+
 * {
-  color: ghostwhite;
+  color:#FFFFFF;
+}
+html{
+  background-color: #000000 !important;
 }
 .under {
   width: 100%;
@@ -12,10 +16,10 @@ body {
 #menu {
   background-image: linear-gradient(to right bottom, rgba(30, 11, 54, 0.65), rgba(202, 55, 130, 0.7)), url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
   color: white;
-  height: 60px;
+  height: 50px;
   font-weight: 500;
   padding-left: 18px;
-  text-align: right;
+  text-align: center;
 
 }
 
@@ -192,7 +196,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 800;
   transition: 250ms;
 }
 
@@ -214,7 +219,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 800;
   transition: 250ms;
 }
 
@@ -236,7 +242,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 800;
   transition: 250ms;
 }
 * {
@@ -698,6 +705,8 @@ input {
 
 .app-form-button:hover {
   color: #b9134f;
+  font-size: 14px;
+  transition: 250ms;
 }
 
 .credits {
@@ -803,3 +812,7 @@ min-height: 100%;
 .imp{
   padding: 2em 1em;
 }
+.mywork{
+  display:grid;
+}
+
